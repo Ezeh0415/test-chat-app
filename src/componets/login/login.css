@@ -1,0 +1,49 @@
+.mainDiv {
+    width: 70%;
+    margin: 20% auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainDiv > h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.mainDiv > form {
+    margin: 10px auto;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+}
+
+.mainDiv  > form > input {
+    margin: 8px auto;
+    padding: 8px;
+    width: 80%;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    background-color: #ffe;
+}
+
+.mainDiv  > form > input::placeholder {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
+}
+
+.mainDiv  > form > button {
+    width: 40%;
+    padding: 8px;
+    font-size: 1.5rem;
+    margin: 5px auto;
+    border-radius: 8px;
+}
+
+.mainDiv > p {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+main > .first-section {
+    height: 99vh;
+}
+
+main > .second-section {
+    width: 100%;
+    overflow: scroll;
+}
